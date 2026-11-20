@@ -3,7 +3,34 @@
     --color-de-fondo : black;
     --color-de-texto : white;
     --color-resaltado : #39FF14;
-    --color-agotado: rgb(34, 34, 34);
+    --color-agotado: rgb(54, 54, 54);
+    /* fuentes */
+    --fuente-titulo:  "Bebas Neue", sans-serif;
+    --fuente-texto: "Inter", sans-serif;
+    --fuente-subtitulo: ;
+};
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
-.body
-    background
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+body{
+    background: var(--color-de-fondo);
+    color: var(--color-de-texto);
+    line-height: 1.5;
+    font-family: var(--fuente-texto);
+};
+
+h1{
+    font-family: var(--fuente-titulo);
+};
+
