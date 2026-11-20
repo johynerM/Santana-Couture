@@ -1,0 +1,9 @@
+:root{
+    /* colores */
+    --color-de-fondo : black;
+    --color-de-texto : white;
+    --color-resaltado : #39FF14;
+    --color-agotado: rgb(34, 34, 34);
+}
+.body
+    background
